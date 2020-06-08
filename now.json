@@ -1,0 +1,11 @@
+{
+  "scope": "juicyfx",
+  "name": "pupr",
+  "builds": [
+    {
+      "src": "src/mail.js",
+      "use": "@now/node"
+    }
+  ],
+  "routes": [{ "src": "/(.*)", "dest": "/src/mail.js" }]
+}

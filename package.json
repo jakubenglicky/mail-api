@@ -1,0 +1,6 @@
+{
+  "name": "mail-api",
+  "dependencies": {
+    "nodemailer": "^6.4.8"
+  }
+}
