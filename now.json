@@ -1,11 +1,10 @@
 {
-  "scope": "juicyfx",
-  "name": "pupr",
-  "builds": [
-    {
-      "src": "src/mail.js",
-      "use": "@now/node"
+  "functions": {
+    "api/*.php": {
+      "runtime": "now-php@0.0.9"
     }
-  ],
-  "routes": [{ "src": "/(.*)", "dest": "/src/mail.js" }]
+  },
+  "routes": [
+    { "src": "/(.*)", "dest": "/src/mail.php" }
+  ]
 }
