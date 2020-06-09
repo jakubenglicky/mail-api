@@ -2,4 +2,4 @@
 
 require __DIR__ . '/../vendor/autoload.php';
 
-echo 'Ahoj';
+var_dump(getenv());
