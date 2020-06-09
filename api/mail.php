@@ -10,6 +10,7 @@ $smtpMailer = new \Nette\Mail\SmtpMailer([
 ]);
 
 $msg = new \Nette\Mail\Message();
+$msg->setFrom('info@webscience.cz');
 $msg->addTo('jakubenglicky@gmail.com');
 $msg->setSubject('Ahoj');
 $msg->setBody('ahoj');
