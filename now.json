@@ -5,6 +5,6 @@
     }
   },
   "routes": [
-    { "src": "/(.*)", "dest": "/src/mail.php" }
+    { "src": "/(.*)", "dest": "/api/mail.php" }
   ]
 }
